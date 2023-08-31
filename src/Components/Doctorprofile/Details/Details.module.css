@@ -1,0 +1,105 @@
+.container {
+  padding: 0 6em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.text {
+  width: 40%;
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: 10px;
+}
+.text > h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--blue3);
+  position: relative;
+}
+.text > h4::after {
+  position: absolute;
+  top: 28px;
+  left: 46.5%;
+  content: "";
+  width: 42px;
+  height: 4px;
+  background-color: #4ace86;
+  border-radius: 10px;
+}
+/* .img {
+  text-align: center;
+}
+.img > img {
+  width: 42px;
+  position: absolute;
+} */
+
+.text > p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.workStation {
+  margin-top: 16px;
+  border-left: 4px solid var(--blue3);
+  padding-left: 20px;
+}
+.workStation > h5 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 7px;
+}
+
+.feesConsultation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.fees > p {
+  font-size: 20px;
+}
+.consultation > p {
+  font-size: 20px;
+}
+
+.unlimited {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 541px;
+  /* height: 100px; */
+  margin-top: 20px;
+  margin: 40px auto 0;
+  border: 1px solid #457ec320;
+}
+
+.unlimited > img {
+  width: 146px;
+  height: 96px;
+}
+.time {
+  padding-left: 20px;
+}
+.time > h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--blue3);
+  padding-bottom: 10px;
+}
+
+.time > span {
+  background-color: var(--blue6);
+  color: var(--white);
+  padding: 5px 15px;
+  border-radius: 20px 0 20px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container > img {
+  width: 586px;
+  /* width: 700px; */
+  height: 426px;
+}

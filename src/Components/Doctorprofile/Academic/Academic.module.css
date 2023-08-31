@@ -1,0 +1,49 @@
+.container {
+  margin: 0 6em;
+  background-color: var(--white);
+  margin-top: 40px;
+  padding: 40px;
+  border-radius: 5px;
+}
+.container > h3 {
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--blue3);
+  position: relative;
+  padding-bottom: 40px;
+}
+.container > h3::after {
+  position: absolute;
+  top: 28px;
+  left: 46.5%;
+  content: "";
+  width: 42px;
+  height: 4px;
+  background-color: #4ace86;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.singleInfo {
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 6px 6px 12px #ededed, -6px -6px 12px #ffffff;
+  padding: 20px 100px 20px 92px;
+  border-left: 4px solid var(--blue3);
+}
+.singleInfo > h5 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.singleInfo p {
+  font-size: 17px;
+  padding: 7px 0;
+}
