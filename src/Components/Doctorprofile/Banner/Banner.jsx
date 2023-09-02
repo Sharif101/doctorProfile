@@ -2,6 +2,7 @@ import classes from "./Banner.module.css";
 import telephone from "../../../assets/Banner/Telephone.png";
 import profile from "../../../assets/Banner/Profile.png";
 import tick from "../../../assets/Banner/Tick.png";
+
 export default function Banner() {
   return (
     <div>
@@ -51,8 +52,8 @@ export default function Banner() {
         <a href="#">DETAILS</a>
         <a href="#">ACADEMIC INFO</a>
         <a href="#">EXPERIENCE</a>
-        <a href="#">CHAMBER</a>
         <a href="#">SCHEDULE</a>
+        <a href="#">CHAMBER</a>
         <a href="#">REVIEWS</a>
       </div>
     </div>

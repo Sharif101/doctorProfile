@@ -3,16 +3,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 3.125em;
 }
 .text {
   width: 40%;
   background-color: var(--white);
-  padding: 40px;
+  padding: 2.5em;
   border-radius: 10px;
 }
 .text > h4 {
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 700;
   text-align: center;
   color: var(--blue3);
@@ -21,9 +21,9 @@
 .text > h4::after {
   position: absolute;
   top: 28px;
-  left: 46.5%;
+  left: 44.5%;
   content: "";
-  width: 42px;
+  width: 2em;
   height: 4px;
   background-color: #4ace86;
   border-radius: 10px;
@@ -37,8 +37,9 @@
 } */
 
 .text > p {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 1.1em;
+  padding-top: 1em;
+  font-weight: 500;
 }
 .workStation {
   margin-top: 16px;
@@ -46,22 +47,23 @@
   padding-left: 20px;
 }
 .workStation > h5 {
-  font-size: 18px;
+  font-size: 1.1em;
   font-weight: 500;
   padding-bottom: 7px;
+}
+.workStation > p {
+  font-size: 15px;
 }
 
 .feesConsultation {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 1.9em;
 }
 
 .fees > p {
-  font-size: 20px;
-}
-.consultation > p {
-  font-size: 20px;
+  font-size: 1.1em;
+  font-weight: 500;
 }
 
 .unlimited {
@@ -83,7 +85,7 @@
   padding-left: 20px;
 }
 .time > h5 {
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 700;
   color: var(--blue3);
   padding-bottom: 10px;
@@ -102,4 +104,43 @@
   width: 586px;
   /* width: 700px; */
   height: 426px;
+  border: 5px solid var(--blue3);
+  border-radius: 15px;
+}
+
+/* --------responsive---------- */
+@media (max-width: 420px) {
+  .container {
+    padding: 0 1.3em;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .text {
+    width: 100%;
+  }
+  .unlimited {
+    width: 100%;
+  }
+  .text > h4 {
+    font-size: 1.5em;
+  }
+  .text > h4::after {
+    top: 33px;
+    left: 40.5%;
+  }
+  .workStation > h5 {
+    font-size: 16.5px;
+    font-weight: 500;
+    padding-bottom: 7px;
+  }
+  .time > h5 {
+    font-size: 1.1em;
+  }
+  .unlimited > img {
+    width: 135px;
+  }
+
+  .container > img {
+    display: none;
+  }
 }

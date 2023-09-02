@@ -1,6 +1,5 @@
 import classes from "./Details.module.css";
 import video from "../../../assets/Details/video.png";
-import green from "../../../assets/Details/GreenRectangle.png";
 import doctor from "../../../assets/Details/Doctors.png";
 
 export default function Details() {
@@ -24,7 +23,7 @@ export default function Details() {
               <p>Chamber Fee: 1,200৳</p>
             </div>
           </div>
-          <div className={classes.consultation}>
+          <div className={classes.fees}>
             <p>Consultation Time</p>
             <div className={classes.workStation}>
               <p>08:00 PM - 10:40 PM</p>
