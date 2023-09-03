@@ -1,0 +1,47 @@
+/* ----------------------------------------- */
+.personalInfo {
+  margin: -90px 6em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  padding: 0 35px;
+  position: relative;
+}
+
+.personalInfo::after {
+  width: 50%;
+  height: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background-color: var(--blue7);
+}
+.personalInfo::before {
+  width: 50%;
+  height: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  content: "";
+  background-color: var(--blue8);
+}
+.personalInfo > a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.linkclr {
+  background-color: var(--blue3);
+  padding: 15px 25px;
+}
+
+/* --------responsive---------- */
+@media (max-width: 420px) {
+  .personalInfo {
+    display: none;
+  }
+}

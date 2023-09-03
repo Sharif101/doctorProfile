@@ -1,7 +1,7 @@
-import classes from "./Banner.module.css";
-import telephone from "../../../assets/Banner/Telephone.png";
-import profile from "../../../assets/Banner/Profile.png";
-import tick from "../../../assets/Banner/Tick.png";
+import classes from "./HeroSection.module.css";
+import telephone from "../../../assets/HeroSection/Telephone.png";
+import profile from "../../../assets/HeroSection/Profile.png";
+import tick from "../../../assets/HeroSection/Tick.png";
 
 export default function Banner() {
   return (
@@ -10,7 +10,7 @@ export default function Banner() {
         <img src={telephone} alt="" />
         <div className={classes.text}>
           <p>
-            For booking please call at <span>+880132268481</span>
+            For booking please call at <span>01969908181</span>
           </p>
           <p>
             Consultation Fee <span>৳ 900</span>
@@ -46,15 +46,6 @@ export default function Banner() {
             </div>
           </div>
         </div>
-      </div>
-      {/* ---------------------------------------------------- */}
-      <div className={classes.personalInfo}>
-        <a href="#">DETAILS</a>
-        <a href="#">ACADEMIC INFO</a>
-        <a href="#">EXPERIENCE</a>
-        <a href="#">SCHEDULE</a>
-        <a href="#">CHAMBER</a>
-        <a href="#">REVIEWS</a>
       </div>
     </div>
   );

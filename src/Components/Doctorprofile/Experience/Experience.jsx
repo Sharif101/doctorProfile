@@ -3,7 +3,10 @@ import classes from "./Experience.module.css";
 export default function Experience() {
   return (
     <div className={classes.container}>
-      <h3>Experience</h3>
+      <div className={classes.title}>
+        <h4>Experience</h4>
+        <div className={classes.divclr}></div>
+      </div>
       {/* ---------------- */}
       <div className={classes.info}>
         <div className={classes.singleInfo}>

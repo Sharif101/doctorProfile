@@ -6,10 +6,10 @@ export default function Details() {
   return (
     <div className={classes.container}>
       <div className={classes.text}>
-        <h4>Details</h4>
-        {/* <div className={classes.img}>
-          <img src={green} alt="" />
-        </div> */}
+        <div className={classes.title}>
+          <h4>Details</h4>
+          <div className={classes.divclr}></div>
+        </div>
         <p>Work Station</p>
         <div className={classes.workStation}>
           <div className={classes.divBorder}></div>

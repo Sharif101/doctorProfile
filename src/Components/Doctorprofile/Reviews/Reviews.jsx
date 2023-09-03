@@ -8,7 +8,10 @@ export default function Reviews() {
   return (
     <div className={classes.container}>
       <div className={classes.text}>
-        <h4>Reviews</h4>
+        <div className={classes.title}>
+          <h4>Reviews</h4>
+          <div className={classes.divclr}></div>
+        </div>
         <div className={classes.review}>
           <div className={classes.reviewStar}>
             <div className={classes.star}>

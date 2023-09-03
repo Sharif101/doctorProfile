@@ -3,7 +3,10 @@ import classes from "./Academic.module.css";
 export default function Academic() {
   return (
     <div className={classes.container}>
-      <h3>Academic Info</h3>
+      <div className={classes.title}>
+        <h4>Academic</h4>
+        <div className={classes.divclr}></div>
+      </div>
       <div className={classes.info}>
         <div className={classes.singleInfo}>
           <h5>MD</h5>
