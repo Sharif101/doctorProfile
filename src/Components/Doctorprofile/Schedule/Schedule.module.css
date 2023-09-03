@@ -75,3 +75,25 @@
   font-size: 15px;
   padding: 7px 0;
 }
+
+/* --------responsive---------- */
+@media (max-width: 420px) {
+  .container {
+    margin: 0;
+  }
+  .title {
+    margin: 0;
+  }
+  .title2 > p {
+    font-size: 1em;
+  }
+  .singleInfo {
+    width: 100%;
+    flex-direction: column;
+    padding: 12px;
+  }
+  .info {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

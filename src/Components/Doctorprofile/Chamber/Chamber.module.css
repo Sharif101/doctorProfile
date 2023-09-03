@@ -1,0 +1,36 @@
+.container {
+  padding: 0 6em;
+}
+.container > table {
+  width: 100%;
+}
+
+/* .tableTh {
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .tr1 {
+  width: 16.66%;
+  border: 1px solid black;
+}
+.tr2 {
+  width: 16.66%;
+  border: 1px solid black;
+}
+.tr3 {
+  width: 16.66%;
+  border: 1px solid black;
+}
+.tr4 {
+  width: 16.66%;
+  border: 1px solid black;
+}
+.tr5 {
+  width: 16.66%;
+  border: 1px solid black;
+}
+.tr6 {
+  width: 16.66%;
+  border: 1px solid black;
+} */

@@ -6,9 +6,9 @@
   margin-top: 3.125em;
 }
 .text {
-  width: 40%;
+  width: 50%;
   background-color: var(--white);
-  padding: 2.5em;
+  padding: 3em;
   border-radius: 10px;
 }
 .text > h4 {
@@ -19,12 +19,12 @@
   position: relative;
 }
 .text > h4::after {
+  width: 2em;
+  height: 4px;
   position: absolute;
   top: 28px;
   left: 44.5%;
   content: "";
-  width: 2em;
-  height: 4px;
   background-color: #4ace86;
   border-radius: 10px;
 }
@@ -42,16 +42,29 @@
   font-weight: 500;
 }
 .workStation {
-  margin-top: 16px;
-  border-left: 4px solid var(--blue3);
-  padding-left: 20px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
-.workStation > h5 {
+.divBorder {
+  width: 4px;
+  height: 50px;
+  background-color: var(--blue3);
+  border-radius: 10px;
+}
+.fees .divBorder {
+  height: 40px;
+}
+.times .divBorder {
+  height: 20px;
+}
+.info > h5 {
   font-size: 1.1em;
   font-weight: 500;
   padding-bottom: 7px;
 }
-.workStation > p {
+.info > p {
   font-size: 15px;
 }
 
@@ -62,6 +75,10 @@
 }
 
 .fees > p {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+.times > p {
   font-size: 1.1em;
   font-weight: 500;
 }
@@ -101,9 +118,9 @@
 }
 
 .container > img {
-  width: 586px;
-  /* width: 700px; */
+  width: 40%;
   height: 426px;
+  object-fit: cover;
   border: 5px solid var(--blue3);
   border-radius: 15px;
 }

@@ -45,10 +45,12 @@ h6 {
   --light-secondary2: #2cbdb3;
   --dark: #333;
   --black: #000000;
+  --black1: #333333;
   --light-dark: rgb(222, 222, 222);
   --dark-grey: #555;
   --grey: #7987a1;
   --grey2: #aebacf;
+  --gray3: #bcc9d9;
   --light-grey: #dee2e9;
   --light: #f0f0f0;
   --light-low: #f8f8f8;
