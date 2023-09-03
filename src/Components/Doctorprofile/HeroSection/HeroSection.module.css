@@ -25,7 +25,8 @@
 /* ---------------------------------------------------------------------- */
 
 .information {
-  margin: 0 19em;
+  width: 65%;
+  margin: 0 auto;
   background-color: var(--white);
   display: flex;
   align-items: center;
@@ -35,11 +36,10 @@
 .information > img {
   width: 176px;
   height: 176px;
-  transform: translateX(-50%);
 }
 .infoText {
-  width: 80%;
-  margin-left: -40px;
+  width: 75%;
+  margin-left: 40px;
 }
 .infoText > h3 {
   color: var(--blue3);
@@ -60,6 +60,7 @@
 .infoFooter {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
 }
 .infoFooter > img {

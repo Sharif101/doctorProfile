@@ -5,7 +5,7 @@ export default function Schedule() {
     <div className={classes.container}>
       <div className={classes.schedule}>
         <h4>Schedule</h4>
-        <div className={classes.divclr}></div>
+        <div className={classes.divbottom}></div>
       </div>
       <div className={classes.title}>
         <p>9th September 2023</p>

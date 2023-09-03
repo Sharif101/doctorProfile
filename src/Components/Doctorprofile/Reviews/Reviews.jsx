@@ -10,7 +10,7 @@ export default function Reviews() {
       <div className={classes.text}>
         <div className={classes.title}>
           <h4>Reviews</h4>
-          <div className={classes.divclr}></div>
+          <div className={classes.divbottom}></div>
         </div>
         <div className={classes.review}>
           <div className={classes.reviewStar}>

@@ -8,7 +8,7 @@ export default function Details() {
       <div className={classes.text}>
         <div className={classes.title}>
           <h4>Details</h4>
-          <div className={classes.divclr}></div>
+          <div className={classes.divbottom}></div>
         </div>
         <p>Work Station</p>
         <div className={classes.workStation}>

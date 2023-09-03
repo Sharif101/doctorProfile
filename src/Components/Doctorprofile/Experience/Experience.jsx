@@ -5,7 +5,7 @@ export default function Experience() {
     <div className={classes.container}>
       <div className={classes.title}>
         <h4>Experience</h4>
-        <div className={classes.divclr}></div>
+        <div className={classes.divbottom}></div>
       </div>
       {/* ---------------- */}
       <div className={classes.info}>

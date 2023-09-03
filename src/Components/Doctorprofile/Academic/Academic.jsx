@@ -5,7 +5,7 @@ export default function Academic() {
     <div className={classes.container}>
       <div className={classes.title}>
         <h4>Academic</h4>
-        <div className={classes.divclr}></div>
+        <div className={classes.divbottom}></div>
       </div>
       <div className={classes.info}>
         <div className={classes.singleInfo}>

@@ -15,16 +15,6 @@ code {
 * {
   margin: 0;
 }
-/* p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-} */
 :root {
   --dark-blue: #23395d;
   --blue: #2b5199;
@@ -36,6 +26,7 @@ h6 {
   --blue6: #0f84ff;
   --blue7: #4a7ded;
   --blue8: #4500ed;
+  --blue9: #457ec364;
   --pastel-blue: #b4cde6;
   --light-blue: #eff6ff;
   --deep-primary: #415dd9;
