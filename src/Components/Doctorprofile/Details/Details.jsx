@@ -7,8 +7,10 @@ export default function Details() {
     <div className={classes.container}>
       <div className={classes.text}>
         <div className={classes.title}>
-          <h4>Details</h4>
-          <div className={classes.divbottom}></div>
+          <div>
+            <h4>Details</h4>
+            <div className={classes.divbottom}></div>
+          </div>
         </div>
         <p>Work Station</p>
         <div className={classes.workStation}>
@@ -26,6 +28,7 @@ export default function Details() {
               <div className={classes.info}>
                 <p>Online Fee: 900৳</p>
                 <p>Chamber Fee: 1,200৳</p>
+                <p>Follow-Up Fee: 600৳</p>
               </div>
             </div>
           </div>
@@ -50,7 +53,9 @@ export default function Details() {
       </div>
       {/* <div className={classes.img}></div> */}
 
-      <img src={video} alt="" />
+      <div className={classes.img}>
+        <img src={video} alt="" />
+      </div>
     </div>
   );
 }

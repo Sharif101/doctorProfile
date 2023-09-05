@@ -27,7 +27,9 @@ code {
   --blue7: #4a7ded;
   --blue8: #4500ed;
   --blue9: #457ec364;
-  --pastel-blue: #b4cde6;
+  --blue10: #457ec326;
+  --blue11: #d5e5f7a5;
+  --pastel-blue: #bbd3ef;
   --light-blue: #eff6ff;
   --deep-primary: #415dd9;
   --primary: #457dc3;
@@ -48,8 +50,10 @@ code {
   --light-purple: #b1bce6;
   --white: #fff;
   --green: #5cb484;
+  --green1: #30d179;
   --light-green: #7eb88b;
   --deep-red: #a10f0f;
   --red: #dd4545;
+  --red1: #f26d6e;
   --light-orange: #cbb059;
 }

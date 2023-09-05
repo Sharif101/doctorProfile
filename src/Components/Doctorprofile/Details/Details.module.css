@@ -16,7 +16,7 @@
   align-items: center;
   flex-direction: column;
 }
-.title > h4 {
+.title h4 {
   font-size: 1.25em;
   font-weight: 700;
   color: var(--blue3);
@@ -45,7 +45,7 @@
   border-radius: 10px;
 }
 .fees .divBorder {
-  height: 40px;
+  height: 70px;
 }
 .times .divBorder {
   height: 20px;
@@ -57,6 +57,7 @@
 }
 .info > p {
   font-size: 15px;
+  padding-bottom: 5px;
 }
 
 .feesConsultation {
@@ -107,12 +108,16 @@
   font-weight: 500;
 }
 
-.container > img {
+.img {
   width: 40%;
   height: 426px;
   object-fit: cover;
   border: 5px solid var(--blue3);
   border-radius: 15px;
+}
+.img > img {
+  width: 100%;
+  height: 100%;
 }
 
 /* --------responsive---------- */
@@ -147,7 +152,10 @@
     width: 135px;
   }
 
-  .container > img {
+  .img {
+    display: none;
+  }
+  .img > img {
     display: none;
   }
 }

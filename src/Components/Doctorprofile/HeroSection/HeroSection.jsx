@@ -2,6 +2,7 @@ import classes from "./HeroSection.module.css";
 import telephone from "../../../assets/HeroSection/Telephone.png";
 import profile from "../../../assets/HeroSection/Profile.png";
 import tick from "../../../assets/HeroSection/Tick.png";
+import location from "../../../assets/HeroSection/Location.png";
 
 export default function Banner() {
   return (
@@ -19,10 +20,17 @@ export default function Banner() {
       </div>
       {/* ----------------------------------------- */}
       <div className={classes.information}>
-        {/* <div className={classes.img}></div> */}
-        <img src={profile} alt="" />
+        <div className={classes.img}>
+          <img src={profile} alt="" />
+        </div>
         <div className={classes.infoText}>
-          <h3>Asst. Prof. Dr. Redwan Hossain</h3>
+          <div className={classes.infoTop}>
+            <h3>Asst. Prof. Dr. Redwan Hossain</h3>
+            <div className={classes.location}>
+              <img src={location} alt="" />
+              <p>Insight Psycho-Social Care</p>
+            </div>
+          </div>
           <p>MBBS, BCS (Health), MD (Psychiatry)</p>
           <p>Psychiatry</p>
           <div className={classes.info}>

@@ -9,8 +9,10 @@ export default function Reviews() {
     <div className={classes.container}>
       <div className={classes.text}>
         <div className={classes.title}>
-          <h4>Reviews</h4>
-          <div className={classes.divbottom}></div>
+          <div>
+            <h4>Reviews</h4>
+            <div className={classes.divbottom}></div>
+          </div>
         </div>
         <div className={classes.review}>
           <div className={classes.reviewStar}>
@@ -73,8 +75,13 @@ export default function Reviews() {
           </p>
           <small>2 days ago</small>
         </div>
+        <div className={classes.btn}>
+          <button>View More</button>
+        </div>
       </div>
-      <img src={ad} alt="" />
+      <div className={classes.img}>
+        <img src={ad} alt="" />
+      </div>
     </div>
   );
 }

@@ -4,8 +4,10 @@ export default function Experience() {
   return (
     <div className={classes.container}>
       <div className={classes.title}>
-        <h4>Experience</h4>
-        <div className={classes.divbottom}></div>
+        <div>
+          <h4>Experience</h4>
+          <div className={classes.divbottom}></div>
+        </div>
       </div>
       {/* ---------------- */}
       <div className={classes.info}>

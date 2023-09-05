@@ -1,4 +1,4 @@
-import classes from "./Personalinfolink.module.css";
+import classes from "./Infotab.module.css";
 
 export default function Personalinfolink() {
   return (
