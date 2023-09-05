@@ -38,6 +38,7 @@
 
 .linkclr {
   background-color: var(--blue3);
+  color: var(--white) !important;
   padding: 15px 25px;
 }
 

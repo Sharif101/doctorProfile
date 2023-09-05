@@ -22,30 +22,50 @@
   height: 5px;
   background-color: #4ace86;
 }
-table {
-  width: 92%;
-  border-collapse: collapse;
-  border-radius: 10px;
-  border: 1px solid #bcc9d9;
-  margin: 0 auto;
+.table {
+  display: flex;
+  justify-content: center;
 }
+
 th {
   background-color: var(--blue10);
   padding: 15px;
   font-size: 17px;
   font-weight: 500;
   border: 1px solid #bcc9d9;
+  border-bottom: none;
   text-align: center;
 }
+th:first-child {
+  border-top-left-radius: 10px;
+}
+th:last-child {
+  border-top-right-radius: 10px;
+}
+tr:last-child > td:first-child {
+  border-bottom-left-radius: 10px;
+}
+tr:last-child > td:last-child {
+  border-bottom-right-radius: 10px;
+}
+tr:nth-child(2) > td {
+  border: 1px solid #bcc9d9;
+  border-top: none;
+  border-bottom: none;
+}
+tr:last-child > td {
+  border: 1px solid #bcc9d9;
+  border-top: none;
+}
+
 td {
   padding: 30px 20px;
-  border-left: 1px solid #bcc9d9;
-  border-right: 1px solid #bcc9d9;
   text-align: center;
   font-size: 15px;
   font-weight: 400;
+  /* border: 1px solid #bcc9d9; */
 }
-tr:nth-child(odd) {
+tr:nth-child(3) {
   background-color: var(--blue11);
 }
 
