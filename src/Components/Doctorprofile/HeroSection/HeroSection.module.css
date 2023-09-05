@@ -101,6 +101,9 @@
     font-size: 15px;
   }
 
+  .location {
+    display: none;
+  }
   .information {
     width: 100%;
     margin: 0;
@@ -118,7 +121,7 @@
     margin-left: 0;
     margin-top: -80px;
   }
-  .infoText > h3 {
+  .infoTop > h3 {
     font-size: 20px;
   }
   .info {
