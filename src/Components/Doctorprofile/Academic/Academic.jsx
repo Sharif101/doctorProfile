@@ -2,7 +2,7 @@ import classes from "./Academic.module.css";
 
 export default function Academic() {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="academic">
       <div className={classes.title}>
         <div>
           <h4>Academic</h4>

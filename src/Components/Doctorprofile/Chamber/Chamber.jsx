@@ -2,7 +2,7 @@ import classes from "./Chamber.module.css";
 
 export default function Chamber() {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="chamber">
       <div className={classes.title}>
         <div>
           <h4>Chamber Info</h4>

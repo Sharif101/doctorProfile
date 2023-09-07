@@ -4,7 +4,7 @@ import doctor from "../../../assets/Details/Doctors.png";
 
 export default function Details() {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="details">
       <div className={classes.text}>
         <div className={classes.title}>
           <div>

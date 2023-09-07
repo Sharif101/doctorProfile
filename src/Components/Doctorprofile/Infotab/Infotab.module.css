@@ -5,10 +5,13 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--white);
-  padding: 0 35px;
+  padding: 0px 35px;
   position: relative;
   box-shadow: 8px 8px 11px #dadbe1;
   border-radius: 5px;
+}
+.default {
+  padding: 15px 35px;
 }
 
 .personalInfo::after {
@@ -39,7 +42,7 @@
 .linkclr {
   background-color: var(--blue3);
   color: var(--white) !important;
-  padding: 15px 25px;
+  padding: 15px 35px;
 }
 
 /* --------responsive---------- */

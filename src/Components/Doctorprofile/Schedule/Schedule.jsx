@@ -2,7 +2,7 @@ import classes from "./Schedule.module.css";
 
 export default function Schedule() {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="schedule">
       <div className={classes.schedule}>
         <div>
           <h4>Schedule</h4>

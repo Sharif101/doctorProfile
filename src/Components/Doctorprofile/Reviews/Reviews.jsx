@@ -6,7 +6,7 @@ import ad from "../../../assets/Reviews/Ad.png";
 
 export default function Reviews() {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="reviews">
       <div className={classes.text}>
         <div className={classes.title}>
           <div>

@@ -2,7 +2,7 @@ import classes from "./Experience.module.css";
 
 export default function Experience() {
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="experience">
       <div className={classes.title}>
         <div>
           <h4>Experience</h4>
