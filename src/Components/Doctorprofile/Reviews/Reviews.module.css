@@ -50,7 +50,7 @@
   font-size: 1.6em;
   font-weight: 500;
 }
-.reviewStar > small {
+.reviewStar > p > span {
   font-size: 12px;
   color: var(--black1);
   padding-top: 10px;
@@ -138,6 +138,18 @@
   .text {
     width: 100%;
   }
+  .review {
+    flex-direction: column;
+  }
+  .reviewStar {
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .review > select {
+    width: 50%;
+    padding: 7px 10px;
+  }
+
   .img {
     display: none;
   }

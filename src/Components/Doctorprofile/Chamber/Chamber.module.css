@@ -87,6 +87,30 @@ tr:nth-child(3) {
 /* --------responsive---------- */
 @media (max-width: 420px) {
   .container {
+    /* display: none; */
+    margin: 40px 0;
+  }
+
+  .table tr th {
     display: none;
+  }
+
+  .table td {
+    display: block;
+    text-align: left;
+    padding: 16px 22px;
+  }
+
+  tr:last-child > td {
+    border: none;
+    border-top: none;
+  }
+  .btnOff {
+    width: 10%;
+    margin: 0 auto;
+  }
+  .btnOn {
+    width: 10%;
+    margin: 0 auto;
   }
 }

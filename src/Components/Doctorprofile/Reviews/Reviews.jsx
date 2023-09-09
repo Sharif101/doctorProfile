@@ -23,8 +23,9 @@ export default function Reviews() {
               <img src={star} alt="" />
               <img src={star2} alt="" />
             </div>
-            <p>4.0</p>
-            <small>Total 10 reviews</small>
+            <p>
+              4.0 <span>Total 10 reviews</span>
+            </p>
           </div>
           <select name="" id="">
             <option value="" disabled selected>

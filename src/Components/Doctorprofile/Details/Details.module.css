@@ -123,18 +123,21 @@
 /* --------responsive---------- */
 @media (max-width: 420px) {
   .container {
-    padding: 0 1.3em;
+    padding: 0;
     flex-direction: column;
     margin-top: 10px;
   }
   .text {
-    width: 100%;
+    width: 76%;
   }
   .unlimited {
     width: 100%;
   }
   .text > h4 {
     font-size: 1.5em;
+  }
+  .info > h5 {
+    font-size: 1em;
   }
   .text > h4::after {
     top: 33px;
@@ -150,6 +153,11 @@
   }
   .unlimited > img {
     width: 135px;
+  }
+
+  .feesConsultation {
+    flex-direction: column;
+    gap: 20px;
   }
 
   .img {

@@ -2,7 +2,7 @@ import { useState } from "react";
 import classes from "./Infotab.module.css";
 
 export default function Personalinfolink() {
-  let [active, setActive] = useState(false);
+  let [active, setActive] = useState("#details");
   // console.log(active);
 
   return (
@@ -11,7 +11,6 @@ export default function Personalinfolink() {
         href="#details"
         className={active === "#details" ? classes.linkclr : classes.default}
         onClick={() => setActive("#details")}
-        active={active}
       >
         DETAILS
       </a>
@@ -19,7 +18,6 @@ export default function Personalinfolink() {
         href="#academic"
         className={active === "#academic" ? classes.linkclr : classes.default}
         onClick={() => setActive("#academic")}
-        active={active}
       >
         ACADEMIC INFO
       </a>
