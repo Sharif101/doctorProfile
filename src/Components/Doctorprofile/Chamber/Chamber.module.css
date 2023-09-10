@@ -26,7 +26,6 @@
   display: flex;
   justify-content: center;
 }
-
 th {
   background-color: var(--blue10);
   padding: 15px;
@@ -84,17 +83,20 @@ tr:nth-child(3) {
   border-radius: 7px;
 }
 
+.table {
+  table-layout: fixed;
+  overflow-x: scroll;
+}
+
 /* --------responsive---------- */
 @media (max-width: 420px) {
   .container {
-    /* display: none; */
     margin: 40px 0;
   }
 
-  .table tr th {
+  /* .table tr th {
     display: none;
   }
-
   .table td {
     display: block;
     text-align: right;
@@ -138,5 +140,5 @@ tr:nth-child(3) {
   }
   td:nth-of-type(6):before {
     content: "Secret Alias";
-  }
+  } */
 }
