@@ -4,7 +4,7 @@ import Subscriptions from "./Components/Subscriptions/Subscriptions";
 function App() {
   return (
     <div>
-      <Profile></Profile>
+      {/* <Profile></Profile> */}
       <Subscriptions></Subscriptions>
     </div>
   );

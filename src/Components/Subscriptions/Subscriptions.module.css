@@ -132,3 +132,19 @@
 /* .singleSub4 {
   grid-column: 2/3;
 } */
+
+/* --------responsive---------- */
+@media (max-width: 420px) {
+  .container {
+    padding: 0;
+  }
+  .Subscriptions {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .info > p {
+    font-size: 16px;
+  }
+  .singleCharge {
+    width: 100%;
+  }
+}
