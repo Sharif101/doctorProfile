@@ -33,6 +33,7 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 30px;
+  gap: 4px;
 }
 .title > h5 {
   font-size: 1em;
@@ -142,9 +143,27 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .info > p {
-    font-size: 16px;
+    font-size: 17px;
   }
   .singleCharge {
     width: 100%;
+  }
+  .title > h5 {
+    font-size: 1.2em;
+  }
+  .title > p {
+    font-size: 16px;
+  }
+  .singleOffer > p > span {
+    font-size: 1.7em;
+  }
+  .singleCharge > h4 {
+    font-size: 19px;
+  }
+  .singleCharge > p {
+    font-size: 19px;
+  }
+  .singleCharge > p > span {
+    font-size: 1.2em;
   }
 }
