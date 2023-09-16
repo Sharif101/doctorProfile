@@ -20,7 +20,7 @@
   margin-bottom: 40px;
 }
 .singleSub {
-  background: url(../../assets/Subscriptions/sub3.png) no-repeat center;
+  background: url(../../assets/Subscriptions/Subcriptions.png) no-repeat center;
   background-size: cover;
   background-color: var(--white);
   border-radius: 10px;
@@ -129,10 +129,6 @@
   font-size: 15px;
   font-weight: 600;
 }
-
-/* .singleSub4 {
-  grid-column: 2/3;
-} */
 
 /* --------responsive---------- */
 @media (max-width: 420px) {
